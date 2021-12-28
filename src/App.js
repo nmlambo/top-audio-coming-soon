@@ -3,7 +3,7 @@ import { ReactComponent as IconFacebook } from './assets/icons/facebook.svg';
 import { ReactComponent as IconTwitter } from './assets/icons/twitter.svg';
 import { ReactComponent as IconInstagram } from './assets/icons/instagram.svg';
 import { ReactComponent as IconSoundcloud } from './assets/icons/soundcloud.svg';
-import { ReactComponent as IconYoutube } from './assets/icons/youtube.svg';
+// import { ReactComponent as IconYoutube } from './assets/icons/youtube.svg';
 import "./App.css";
 
 class App extends React.Component {
@@ -28,10 +28,7 @@ class App extends React.Component {
             </a>
             <a href="https://soundcloud.com/topaudio" title="Soundcloud" target="_blank" rel="noopener noreferrer">
               <IconSoundcloud className="icon" />
-            </a>
-            <a href="https://soundcloud.com/topaudio" title="Youtube" target="_blank" rel="noopener noreferrer">
-              <IconYoutube className="icon" />
-            </a>   
+            </a> 
           </div>
         </div>
         <div className="content">
