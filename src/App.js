@@ -3,7 +3,7 @@ import { ReactComponent as IconFacebook } from './assets/icons/facebook.svg';
 import { ReactComponent as IconTwitter } from './assets/icons/twitter.svg';
 import { ReactComponent as IconInstagram } from './assets/icons/instagram.svg';
 import { ReactComponent as IconSoundcloud } from './assets/icons/soundcloud.svg';
-// import { ReactComponent as IconYoutube } from './assets/icons/youtube.svg';
+import { ReactComponent as IconYoutube } from './assets/icons/youtube.svg';
 import "./App.css";
 
 class App extends React.Component {
@@ -17,11 +17,14 @@ class App extends React.Component {
             </a>
           </div>
           <div className="social">
-            <a href="https://www.facebook.com/topaudioinc/" title="Facebook" target="_blank" rel="noopener noreferrer">
-              <IconFacebook className="icon" />
+            <a href="https://www.youtube.com/channel/UCPff6yXB5zRQksbtvA_hvAQ/featured" title="Youtube" target="_blank" rel="noopener noreferrer">
+              <IconYoutube className="icon" />
             </a>
             <a href="https://twitter.com/topaudioinc" title="Twitter" target="_blank" rel="noopener noreferrer">
               <IconTwitter className="icon" />
+            </a>
+            <a href="https://www.facebook.com/topaudioinc/" title="Facebook" target="_blank" rel="noopener noreferrer">
+              <IconFacebook className="icon" />
             </a>
             <a href="https://www.instagram.com/topaudio.app/" title="Instagram" target="_blank" rel="noopener noreferrer">
               <IconInstagram className="icon" />
